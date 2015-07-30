@@ -1,0 +1,106 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf210
+{\fonttbl\f0\fmodern\fcharset0 Courier;\f1\fmodern\fcharset0 Courier-Bold;\f2\froman\fcharset0 TimesNewRomanPSMT;
+}
+{\colortbl;\red255\green255\blue255;\red85\green142\blue40;\red102\green177\blue50;}
+\margl1440\margr1440\vieww15860\viewh11460\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+
+\f0\fs28 \cf0 R- Notes\
+\pard\pardeftab720
+\cf2 #Codes to know\cf0 \
+getwd()\cf2   # gets the current working directory \cf0 \
+setwd(path)\cf2  # let you set a new directory \
+\pard\pardeftab720
+\cf0 \expnd0\expndtw0\kerning0
+install.packages("TTR")\kerning1\expnd0\expndtw0  \cf2 #loads a packages \cf0 \expnd0\expndtw0\kerning0
+\
+\pard\pardeftab720
+\cf0 \kerning1\expnd0\expndtw0 library(\'93package name\'94) \cf2 #opens packages \
+\cf0 libPaths()\cf2  # locates where a packages has been installed. \cf0 \
+\pard\pardeftab720
+\cf0 \expnd0\expndtw0\kerning0
+mydata = read.table("test3.txt",  header=FALSE); mydata \cf3 \expnd0\expndtw0\kerning0
+ # read text file and print data frame\
+\cf0 \expnd0\expndtw0\kerning0
+write.csv(results, row.names=TRUE, "D:/MSDS650/results.csv")  \cf3 \expnd0\expndtw0\kerning0
+  #output to a .csv file\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+\cf0 \kerning1\expnd0\expndtw0 ?keyword  or Help(keyword)  \cf2 # pulls up help files \cf0 \
+\pard\pardeftab720
+\cf0 sd(x, na.rm = FALSE) \cf3  # set the Standard Deviatio\cf0 n\
+search()  \cf2 # lets you search to see what packages and tools you have running \
+\cf0 x <- .Last.value \cf2  # Lets you use the last value or expression returned by R\
+\cf0 rm() \cf2 #\cf3  let you remove an variable from the list\cf2 \
+\cf0 rm(list=ls())\cf2  \cf3  # Removes all objects to prevent results from previous runs being carried over into new runs.\
+\cf0 is.finite(w)  \cf3 # checks to see if a value is finite\cf0 \
+is.infinite(w)  \cf3 # checks to see if a value is infinite\cf0 \
+\pard\pardeftab720
+\cf0 \expnd0\expndtw0\kerning0
+names() \cf3 \expnd0\expndtw0\kerning0
+# let you see the name of the columns in your vector\cf0 \kerning1\expnd0\expndtw0 \
+str() \cf3 # shows structure of the dataset \cf0 \
+class()  \cf3 # will tell you what type of data you are working with (integer, character)\
+\pard\pardeftab720
+\cf0 objects()  \cf3 # lets you see what variables you already have defined.\cf0  \
+nchar()  \cf3 # tell you how many character are in the string\cf0 \
+is.nan(a) \cf3   #checks to see if the value is undefined (0/0)\
+\cf0 is.na(x) \cf3  # checks to see if a variable is missing\
+\pard\pardeftab720
+\cf0 \expnd0\expndtw0\kerning0
+Past() \cf3 \expnd0\expndtw0\kerning0
+# puts two vectors(words) together \cf0 \expnd0\expndtw0\kerning0
+\
+jitter(x, factor = 1, amount = NULL)\cf2 \expnd0\expndtw0\kerning0
+ #adds noise to numbers. \
+\cf0 \expnd0\expndtw0\kerning0
+cbind \
+rbind \
+\pard\pardeftab720
+\cf3 \expnd0\expndtw0\kerning0
+\
+\
+Command line shortcuts\
+\pard\pardeftab720
+\cf0 \expnd0\expndtw0\kerning0
+up arrow\cf3 \expnd0\expndtw0\kerning0
+ \'97 take you back to the last command \
+\cf0 \expnd0\expndtw0\kerning0
+Cmd + up arrow \cf3 \expnd0\expndtw0\kerning0
+- will show all of my previous commands. useful to pull from history commands\
+\cf0 \expnd0\expndtw0\kerning0
+Cmd + return  \cf3 \expnd0\expndtw0\kerning0
+- shortcut for the run commands  \
+\cf0 \expnd0\expndtw0\kerning0
+type tab when starting a command \cf3 \expnd0\expndtw0\kerning0
+-\cf0 \expnd0\expndtw0\kerning0
+ \cf3 \expnd0\expndtw0\kerning0
+will show auto fill list of functions \
+\cf0 \expnd0\expndtw0\kerning0
+alt(option) + minus\cf3 \expnd0\expndtw0\kerning0
+  - will give you the assign operator <-\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+\cf0 \kerning1\expnd0\expndtw0 options + Command + L   or  control+L (studio) \cf2 # clears the console \cf3 \expnd0\expndtw0\kerning0
+\
+\pard\pardeftab720
+\cf3 \expnd0\expndtw0\kerning0
+\
+\
+#useful Links\
+\pard\pardeftab720\ri720
+
+\f1\b \cf0 \kerning1\expnd0\expndtw0 60+ R resources to improve your data skills\
+\pard\pardeftab720\ri720
+
+\f0\b0 \cf0 http://www.computerworld.com/article/2497464/business-intelligence/business-intelligence-60-r-resources-to-improve-your-data-skills.html\
+\pard\pardeftab720
+\cf0 \
+R note cards \
+http://cran.r-project.org/doc/contrib/Short-refcard.pdf\
+\
+\pard\pardeftab720\ri720
+
+\f2 \cf0 \
+\cf2 #Things to Remember in R \cf0 \
+R[Rows, Columns]     \cf2  # r looks at rows first then columns 
+\fs26 \
+}
