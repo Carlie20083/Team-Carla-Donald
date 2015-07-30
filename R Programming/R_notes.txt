@@ -1,0 +1,49 @@
+R- Notes
+#Codes to know
+getwd()  # gets the current working directory 
+setwd(path) # let you set a new directory 
+install.packages("TTR") #loads a packages 
+library(“package name”) #opens packages 
+libPaths() # locates where a packages has been installed. 
+mydata = read.table("test3.txt",  header=FALSE); mydata  # read text file and print data frame
+write.csv(results, row.names=TRUE, "D:/MSDS650/results.csv")    #output to a .csv file
+?keyword  or Help(keyword)  # pulls up help files 
+sd(x, na.rm = FALSE)  # set the Standard Deviation
+search()  # lets you search to see what packages and tools you have running 
+x <- .Last.value  # Lets you use the last value or expression returned by R
+rm() # let you remove an variable from the list
+rm(list=ls())  # Removes all objects to prevent results from previous runs being carried over into new runs.
+is.finite(w)  # checks to see if a value is finite
+is.infinite(w)  # checks to see if a value is infinite
+names() # let you see the name of the columns in your vector
+str() # shows structure of the dataset 
+class()  # will tell you what type of data you are working with (integer, character)
+objects()  # lets you see what variables you already have defined. 
+nchar()  # tell you how many character are in the string
+is.nan(a)   #checks to see if the value is undefined (0/0)
+is.na(x)  # checks to see if a variable is missing
+Past() # puts two vectors(words) together 
+jitter(x, factor = 1, amount = NULL) #adds noise to numbers. 
+cbind 
+rbind 
+
+
+Command line shortcuts
+up arrow — take you back to the last command 
+Cmd + up arrow - will show all of my previous commands. useful to pull from history commands
+Cmd + return  - shortcut for the run commands  
+type tab when starting a command - will show auto fill list of functions 
+alt(option) + minus  - will give you the assign operator <-
+options + Command + L   or  control+L (studio) # clears the console 
+
+
+#useful Links
+60+ R resources to improve your data skills
+http://www.computerworld.com/article/2497464/business-intelligence/business-intelligence-60-r-resources-to-improve-your-data-skills.html
+
+R note cards 
+http://cran.r-project.org/doc/contrib/Short-refcard.pdf
+
+
+#Things to Remember in R 
+R[Rows, Columns]      # r looks at rows first then columns 
