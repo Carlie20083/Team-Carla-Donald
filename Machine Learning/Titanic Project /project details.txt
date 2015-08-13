@@ -1,0 +1,7 @@
+This was an exercise that I did in machine learning. The best part of this tutorial was it got me to 
+submit my result on Kaggle, which I have to say was a bit scary. Since stating my Data Science program I really 
+hadn't felt I was ready to use Kraggle. but exploring the site and doing this exercise, I have to say it was fun. 
+
+#tutoral link http://will-stanton.com/machine-learning-with-r-an-irresponsibly-fast-tutorial/
+
+Stay tuned for more Kaggle post to come. 
